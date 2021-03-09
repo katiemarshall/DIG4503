@@ -1,0 +1,23 @@
+import React from 'react'
+import './index.css'
+
+class ToDo extends React.Component{
+render(){
+    return(
+      
+      
+      
+      <div className = "todo">
+      <span className="close"
+      onClick={() => this.props.clickMe()}>&times;</span>
+      <h3>{this.props.title}</h3>
+      <p>{this.props.content}</p>
+      </div>
+   
+    
+    )
+  }
+}
+
+
+export default ToDo
