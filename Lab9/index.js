@@ -9,6 +9,8 @@ let fileContents = fs.readFileSync("database.json");
 
 let database = JSON.parse(fileContents);
 
+App.use("/", Express.static("public"));
+
 
 App.get("/api/employees/:name", (req, res) => {
     let result = {"error": "not found"};
