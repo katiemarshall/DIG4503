@@ -1,6 +1,6 @@
 import MongoClient from 'mongodb';
 
-const URL = "";
+const URL = "mongodb+srv://kmarshall:CxhR4dvy1p8jsxGy@cluster0.oewwc.mongodb.net/test";
 
 
 MongoClient.connect(URL, {useUnifiedTopology: true})
