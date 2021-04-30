@@ -1,0 +1,15 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "portfolio2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kathryn marshall",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "mongodb": "^3.6.6"
+  }
+}
