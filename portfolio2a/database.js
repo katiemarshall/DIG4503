@@ -1,6 +1,7 @@
 import MongoClient from 'mongodb';
 
-const url = "";
+// url for connection below - using my other link for now
+// const url = "mongodb+srv://kmarshall:CxhR4dvy1p8jsxGy@cluster0.oewwc.mongodb.net/test";
 
 
 class Database {
